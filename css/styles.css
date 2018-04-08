@@ -1,16 +1,197 @@
 body{
-  background-color: tan;
+  font-style: monospace;
+  background-image: url("img/Chess.png");
+  background-color: blue;
 }
-h3{
-  display: none;
-}
-#result{
-  font-size: 20px;
-}
-#happy{
+.ello{
+  background-image: url("img/Chess.png");
   background-color: yellow;
-  border: 3px solid blue;
 }
-#crime{
+.red{
+  background-image: url("img/Chess.png");
+  background-color: red;
+}
+.image{
+  height: 350px;
+  width: 400px;
+  margin: 1em;
+  margin-left: 3em;
+}
+.spiral{
+  background-image: url("img/spiral.png"), url("img/heady.png");
+  background-color: yellow;
+}
+.citay{
+  background-image: url("img/scape.png");
+  background-color: red;
+}
+.fashion{
+  background-color: red;
+  background-image: url("img/skyguy.png"), url("img/fashion.png");
+}
+.floral{
+  background-image: url("img/floral.png");
+}
+.hub{
   display: none;
+}
+.starz{
+  background-color: red;
+  background-image: url("img/star.png");
+}
+#prayer{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5em;
+  cursor: pointer;
+}
+#frick{
+  display: none;
+  height: 150px;
+  width: 185px;
+  border: 3px solid blue;
+  cursor: pointer;
+}
+#frick:hover{
+  height: 350px;
+  width: 385px;
+  border: 4px solid red;
+}
+#prayer:hover{
+  border: 3px solid purple;
+}
+#roses{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5em;
+  cursor: pointer;
+}
+#facez{
+  display: none;
+}
+#facez:hover{
+  height: 1000px;
+  width: 1000px;
+  cursor: pointer;
+}
+#max:hover{
+  cursor: pointer;
+  border: 5px solid red;
+  height: 450px;
+  width: 500px;
+  margin: 3em;
+}
+#selfie:hover{
+  cursor: pointer;
+  border: 5px solid yellow;
+  height: 450px;
+  width: 500px;
+  margin: 3em;
+}
+#ruins:hover{
+  cursor: pointer;
+  border: 5px solid blue;
+  height: 450px;
+  width: 500px;
+  margin: 3em;
+}
+#angel:hover{
+  cursor: pointer;
+  border: 5px solid pink;
+  height: 450px;
+  width: 500px;
+  margin: 3em;
+}
+#abs:hover{
+  cursor: pointer;
+  border: 5px solid red;
+  height: 450px;
+  width: 500px;
+  margin: 3em;
+}
+#cutter:hover{
+  cursor: pointer;
+  border: 5px solid yellow;
+  height: 450px;
+  width: 500px;
+  margin: 3em;
+}
+#me{
+  height: 300px;
+  width: 350px;
+  border: 5px solid blue;
+  margin: 2em;
+}
+#me:hover{
+  cursor: pointer;
+  border: 5px solid red;
+  height: 350px;
+  width: 400px;
+
+}
+#zone{
+  background-color: yellow;
+  border: 3px solid red;
+  margin-top: 3em;
+}
+#zone:hover{
+  background-image: url("img/facebook.png");
+  padding: 10em;
+}
+#zone2{
+  display: none;
+  font-size: 30px;
+  background-color: yellow;
+  color: red;
+  border: 5px solid pink;
+  margin-top: 5em;
+}
+#zone2:hover{
+  background-color: blue;
+  border: 3px solid yellow;
+  padding: 1em;
+  color:yellow;
+  font-size: 40px;
+  margin-top: 1em;
+  margin-left: 5em;
+  background-image: url("img/Chess.png");
+  cursor: pointer;
+}
+#megaMax{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  cursor: pointer;
+}
+#megaMax:hover{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  border: 5px solid red;
+  cursor: pointer;
+}
+#grid1{
+  display: none;
+}
+#grid2{
+  display: none;
+}
+#meep{
+  display: none;
+}
+#angelic{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  cursor: pointer;
+}
+#angelic:hover{
+  border: 5px solid red;
 }
