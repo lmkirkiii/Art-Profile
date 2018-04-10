@@ -39,6 +39,280 @@ body{
   background-color: red;
   background-image: url("img/star.png");
 }
+.paris{
+  background-color: pink;
+  background-image: url("img/citadell.png");
+}
+.abstract{
+  background-color: blue;
+  background-image: url("img/abstract.png");
+}
+.tempo{
+  background-color: darkblue;
+  background-image: url("img/starcreature.png"), url("img/tempo.png");
+}
+.computer{
+  background-color: yellow;
+  background-image: url("img/computer.png");
+}
+.zyborg{
+  background-color: black;
+  background-image: url("img/mars.png");
+}
+.dot{
+  background-color: red;
+  background-image: url("img/centi.png"),url("img/dot.png");
+}
+.seven{
+  background-color: blue;
+  background-image: url("img/golum.png"), url("img/hell.png");
+}
+.blues{
+  background-color: blue;
+  background-image: url("");
+}
+#seven28{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5.5em;
+  cursor: pointer;
+}
+#seven27{
+  display: none;
+  height: 15px;
+  width: 25px;
+
+}
+#seven26{
+  display: none;
+  height: 5px;
+  width: 10px;
+
+}
+#seven25{
+  display: none;
+  height: 500px;
+  width: 650px;
+
+}
+#seven24{
+  display: none;
+  height: 20px;
+  width: 35px;
+
+}
+#seven23{
+  display: none;
+  height: 100px;
+  width: 250px;
+
+}
+#seven22{
+  display: none;
+  height: 300px;
+  width: 450px;
+
+}
+#seven21{
+  display: none;
+  height: 40px;
+  width: 55px;
+
+}
+#seven20{
+  display: none;
+  height: 700px;
+  width: 25px;
+
+}
+#seven19{
+  display: none;
+  height: 150px;
+  width: 150px;
+}
+#seven18{
+  display: none;
+  height: 1px;
+  width: 3px;
+}
+#seven17{
+  display: none;
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+}
+
+#seven17:hover{
+  height: 170px;
+  width: 170px;
+  border: 3px solid yellow;
+}
+#seven16{
+  display: none;
+  height: 190px;
+  width: 250px;
+
+}
+#seven15{
+  display: none;
+  height: 400px;
+  width: 250px;
+
+}
+#seven14{
+  display: none;
+  height: 600px;
+  width: 700px;
+
+}
+#seven13{
+  display: none;
+  height: 3px;
+  width: 300px;
+
+}
+#seven12{
+  display: none;
+  height: 300px;
+  width: 310px;
+
+}
+#seven11{
+  display: none;
+  height: 90px;
+  width: 250px;
+
+}
+#seven10{
+  display: none;
+  height: 300px;
+  width: 30px;
+
+}
+#seven9{
+  display: none;
+  height: 25px;
+  width: 15px;
+
+}
+#seven8{
+  display: none;
+  height: 900px;
+  width: 100px;
+
+}
+#seven7{
+  display: none;
+  height: 50px;
+  width: 2px;
+
+}
+#seven6{
+  display: none;
+  height: 50px;
+  width: 20px;
+
+}
+#seven5{
+  display: none;
+  height: 330px;
+  width: 430px;
+
+}
+#seven4{
+  display: none;
+  height: 150px;
+  width: 250px;
+
+}
+#seven3{
+  display: none;
+  height: 5px;
+  width: 50px;
+
+}
+#seven2{
+  display: none;
+  height: 666px;
+  width: 66px;
+
+}
+#seven1{
+  display: none;
+  height: 400px;
+  width: 400px;
+
+}
+
+#seven:hover{
+  border: 3px solid gold;
+}
+#slider2{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5.5em;
+  cursor: pointer;
+
+}
+#zoid{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5.5em;
+  cursor: pointer;
+}
+#polka{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5.5em;
+  cursor: pointer;
+}
+#night{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5.5em;
+  cursor: pointer;
+}
+#nighty{
+  display: none;
+  cursor: pointer;
+}
+#nighty:hover{
+  border: 3px solid yellow;
+}
+#night:hover{
+  border: 3px solid yellow;
+}
+#heart{
+  display: none;
+  cursor: pointer;
+}
+#heady{
+  display: none;
+  cursor: pointer;
+}
+#heart:hover{
+  background-image: url("img/floral.png")
+}
+#artheads:hover{
+  background-image: url("img/heart.png");
+}
+#artheads{
+  display: none;
+  cursor: pointer;
+}
+#yay{
+  display: none;
+}
 #prayer{
   display: none;
   height: 700px;
@@ -46,6 +320,23 @@ body{
   margin: 3em;
   margin-left: 5em;
   cursor: pointer;
+}
+#slider{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5.5em;
+  cursor: pointer;
+}
+#duke{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5.5em;
+  cursor: pointer;
+
 }
 #frick{
   display: none;
@@ -63,6 +354,14 @@ body{
   border: 3px solid purple;
 }
 #roses{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5em;
+  cursor: pointer;
+}
+#artiste{
   display: none;
   height: 700px;
   width: 850px;
