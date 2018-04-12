@@ -1,11 +1,4 @@
-// Buisness Logic.
-var foodie = function(food){
-  if(food === "Curry"){
-    return "Ingredients Are: Starch, Corn, Crispy Noodles, Curry Powder."
-  }else if (food === "Stew"){
-    return "Pizza & Ice Cream"
-  }
-};
+
 
 
 //User Interface Logic
@@ -13,7 +6,7 @@ $(document).ready(function(){
   $("#me").click(function(){
     $("#zone").fadeOut();
     $("#zone2").fadeIn();
-    $("#frick").slideDown(4000);
+    $("#hello").slideDown(4000);
     $("body").addClass("ello");
   });
   $("#me").hover(function(){
@@ -28,21 +21,6 @@ $(document).ready(function(){
     $("#zone3").fadeOut();
     $("body").removeClass("starz");
     $("body").addClass("red");
-  });
-
-  $("#frick").click(function(){
-    $("#yuppie").fadeIn(2000);
-    $("#sussy").slideDown(1000);
-    $("#fussy").fadeIn(3000);
-    $("#nufsaid").slideUp(9000);
-    $("#lussy").fadeIn(2500);
-    $("#yuppie1").fadeIn(2000);
-    $("#sussy1").slideDown(1000);
-    $("#fussy1").fadeIn(3000);
-    $("#nufsaid1").slideUp(9000);
-    $("#lussy1").fadeIn(2500);
-    $("body").removeClass("ello");
-    $("body").addClass("starz");
   });
 
   //Grid All
@@ -207,7 +185,7 @@ $(document).ready(function(){
  });
   $("#slider2").click(function(){
     $("#slider").slideUp(100);
-    $("#slider2").fadeOut(300);
+    $("#slider2").fadeOut(1000);
     $("#polka").slideDown(3000);
     $("body").removeClass("zyborg");
     $("body").addClass("dot");
@@ -277,7 +255,55 @@ $(document).ready(function(){
     $("body").addClass("blues");
 
   });
+  $("#seven28").click(function(){
+    $("#seven28").slideUp(1000);
+    $("#nightLove").slideDown(3000);
+    $("body").removeClass("blues");
+    $("body").addClass("last");
+  });
 
+  $("#nightLove").click(function(){
+    $("#yuppie").fadeIn(2000);
+    $("#sussy").slideDown(1000);
+    $("#fussy").fadeIn(3000);
+    $("#nufsaid").slideUp(9000);
+    $("#lussy").fadeIn(2500);
+    $("#yuppie1").fadeIn(2000);
+    $("#sussy1").slideDown(1000);
+    $("#fussy1").fadeIn(3000);
+    $("#nufsaid1").slideUp(9000);
+    $("#lussy1").fadeIn(2500);
+    $("#nightLove").fadeOut(1000);
+    $("#zone2").fadeIn(1000);
+    $("body").removeClass("last");
+    $("body").addClass("starz");
+  });
+
+  $("#hello").click(function(){
+    $("#selfie").fadeIn(500);
+    $("#ruins").fadeIn(1000);
+    $("#angel").fadeIn(800);
+    $("#abs").fadeIn(2000);
+    $("#cutter").fadeIn(1500);
+    $("#max").fadeIn(8000);
+    $("#frick").fadeOut(500);
+
+    $("body").removeClass("starz");
+    $("body").addClass("red");
+  });
+  // Character Heaven
+    $("#ruins").click(function(){
+      $("body").removeClass("red");
+      $("body").addClass("heaven");
+      $("#selfie").slideUp(1000);
+      $("#ruins").slideUp(1000);
+      $("#angel").slideUp(1000);
+      $("#abs").slideUp(1000);
+      $("#cutter").slideUp(1000);
+      $("#max").slideUp(1000);
+
+      $("#kirbo").slideDown(2000);
+    });
 
 
 });

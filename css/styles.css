@@ -68,8 +68,31 @@ body{
   background-image: url("img/golum.png"), url("img/hell.png");
 }
 .blues{
+  background-color: violet;
+  background-image: url("img/roses.png");
+}
+.last{
+  background-color: darkblue;
+  background-image: url("img/lover.png");
+}
+.heaven{
   background-color: blue;
-  background-image: url("");
+  background-image: url("img/heaven.png");
+}
+#kirbo{
+  display: none;
+}
+#nightLove{
+  display: none;
+  height: 700px;
+  width: 850px;
+  margin: 3em;
+  margin-left: 5.5em;
+  cursor: pointer;
+
+}
+#nightLove:hover{
+  border: 3px solid yellow;
 }
 #seven28{
   display: none;
