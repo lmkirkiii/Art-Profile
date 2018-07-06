@@ -403,44 +403,27 @@ body{
 #max:hover{
   cursor: pointer;
   border: 5px solid red;
-  height: 450px;
-  width: 500px;
-  margin: 3em;
 }
 #selfie:hover{
   cursor: pointer;
   border: 5px solid yellow;
-  height: 450px;
-  width: 500px;
-  margin: 3em;
 }
 #ruins:hover{
   cursor: pointer;
   border: 5px solid blue;
-  height: 450px;
-  width: 500px;
-  margin: 3em;
+
 }
 #angel:hover{
   cursor: pointer;
   border: 5px solid pink;
-  height: 450px;
-  width: 500px;
-  margin: 3em;
 }
 #abs:hover{
   cursor: pointer;
   border: 5px solid red;
-  height: 450px;
-  width: 500px;
-  margin: 3em;
 }
 #cutter:hover{
   cursor: pointer;
   border: 5px solid yellow;
-  height: 450px;
-  width: 500px;
-  margin: 3em;
 }
 #me{
   height: 300px;

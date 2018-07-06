@@ -1,0 +1,35 @@
+body{
+  background-image: url("img/Chess.png");
+  background-color: red;
+}
+.image{
+  height: 350px;
+  width: 400px;
+  margin: 1em;
+  margin-left: 3em;
+}
+#max:hover{
+  cursor: pointer;
+  border: 5px solid red;
+}
+#selfie:hover{
+  cursor: pointer;
+  border: 5px solid yellow;
+}
+#ruins:hover{
+  cursor: pointer;
+  border: 5px solid blue;
+
+}
+#angel:hover{
+  cursor: pointer;
+  border: 5px solid pink;
+}
+#abs:hover{
+  cursor: pointer;
+  border: 5px solid red;
+}
+#cutter:hover{
+  cursor: pointer;
+  border: 5px solid yellow;
+}

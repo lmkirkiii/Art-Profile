@@ -292,18 +292,6 @@ $(document).ready(function(){
     $("body").addClass("red");
   });
   // Character Heaven
-    $("#ruins").click(function(){
-      $("body").removeClass("red");
-      $("body").addClass("heaven");
-      $("#selfie").slideUp(1000);
-      $("#ruins").slideUp(1000);
-      $("#angel").slideUp(1000);
-      $("#abs").slideUp(1000);
-      $("#cutter").slideUp(1000);
-      $("#max").slideUp(1000);
-
-      $("#kirbo").slideDown(2000);
-    });
 
 
 });
